@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background: linear-gradient(to right, #e43a15, #e65245);
+}
+
+a{
+  color: white;
+}
+h1 {
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+.input {
+  border: 1px solid #333;
+  border-radius: .3em;
+  display: flex;
+  flex-direction: row;
+  padding: .25rem;
+  width: 21em;
+  height: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+select {
+  margin-left: .5rem;
+  width: 22em;
+  height: 40px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+}
+option{
+  text-align: center;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-right: 20px;
+}
